@@ -27,5 +27,19 @@ X ≤ Y.
 */
 
 function solution(X,Y,D){
-
+  let numberOfJumps=0;
+  let distanceTraveled=X;
+  while(distanceTraveled<Y){
+    distanceTraveled+=D;
+    numberOfJumps+1;
+  }
+  return `The number of jumps the frog took ${numberOfJumps}`;
 }
+
+// Some test Cases
+
+// solution(10,100,10); => 'The number of jumps the frog took 9'
+
+//solution(30,50,20)=> 'The number of jumps the frog took 1'4
+
+// solution(30,120,40) => 'The number of jumps the frog took 3'

@@ -32,3 +32,9 @@ function solution(array,K){
 }
 
 solution([3,8,9,7,6],3);
+
+
+// Some test cases.
+
+// solution([3,8,9,7,6],2)=> [7,6,3,8,9]
+// solution([1,4,5,6,7],4)=> [4,5,6,7,1]
